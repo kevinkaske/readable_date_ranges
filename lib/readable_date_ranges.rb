@@ -1,4 +1,4 @@
-module readable_date_ranges
+module ReadableDateRanges
 	def self.included(base)
 		this_week_start  = Date.today.at_beginning_of_week.beginning_of_day
 		this_week_end    = Date.today.at_end_of_week.end_of_day
