@@ -4,5 +4,5 @@ gem 'rspec'
 gem 'activesupport'
 gem 'activerecord'
 gem 'sqlite3'
-#gem 'rails'
 gem 'activerecord-nulldb-adapter'
+gem 'rake', :group => :test
