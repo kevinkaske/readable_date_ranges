@@ -41,7 +41,7 @@ Then you can use the scope in the following way when calling your model
 @users = User.updated_this_year
 @users = User.updated_last_year
 
-#updated_at scopes
+#created_or_updated_at scopes
 @users = User.created_or_updated_this_week
 @users = User.created_or_updated_last_week
 @users = User.created_or_updated_this_month
