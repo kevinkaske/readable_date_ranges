@@ -10,4 +10,7 @@ Gem::Specification.new do |s|
   s.homepage    =
     'https://github.com/kevinkaske/readable_date_ranges'
   s.license       = 'Apache 2.0'
+  s.add_development_dependency 'bundler', '~> 1.3'
+  s.add_development_dependency 'rake'
+  s.add_development_dependency 'rspec'
 end
