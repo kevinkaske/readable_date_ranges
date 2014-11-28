@@ -1,4 +1,4 @@
-readable_date_ranges
+Readable Date Ranges
 ====================
 
 Add readable range selections for created_at and updated_at to Active Record Models. These scopes are very helpful for reportings.
